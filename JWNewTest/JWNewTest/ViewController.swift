@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("这是我的测试项目")
         print("你可以用来试试")
         print("真的很好用")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonClick() {
+        
+        JWHUD.showHUD()
+    }
 
 }
 

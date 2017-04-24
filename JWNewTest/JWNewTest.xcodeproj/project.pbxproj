@@ -12,6 +12,7 @@
 		D7DDB9161EADE0040070DBC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDB9141EADE0040070DBC6 /* Main.storyboard */; };
 		D7DDB9181EADE0040070DBC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DDB9171EADE0040070DBC6 /* Assets.xcassets */; };
 		D7DDB91B1EADE0040070DBC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DDB9191EADE0040070DBC6 /* LaunchScreen.storyboard */; };
+		D7DDB9241EADE89D0070DBC6 /* JWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DDB9231EADE89D0070DBC6 /* JWHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7DDB9171EADE0040070DBC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DDB91A1EADE0040070DBC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7DDB91C1EADE0040070DBC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DDB9231EADE89D0070DBC6 /* JWHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D7DDB90F1EADE0040070DBC6 /* JWNewTest */ = {
 			isa = PBXGroup;
 			children = (
+				D7DDB9221EADE87C0070DBC6 /* JWHUD */,
 				D7DDB9101EADE0040070DBC6 /* AppDelegate.swift */,
 				D7DDB9121EADE0040070DBC6 /* ViewController.swift */,
 				D7DDB9141EADE0040070DBC6 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D7DDB91C1EADE0040070DBC6 /* Info.plist */,
 			);
 			path = JWNewTest;
+			sourceTree = "<group>";
+		};
+		D7DDB9221EADE87C0070DBC6 /* JWHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D7DDB9231EADE89D0070DBC6 /* JWHUD.swift */,
+			);
+			path = JWHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DDB9131EADE0040070DBC6 /* ViewController.swift in Sources */,
+				D7DDB9241EADE89D0070DBC6 /* JWHUD.swift in Sources */,
 				D7DDB9111EADE0040070DBC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				D7DDB9211EADE0040070DBC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
